@@ -7,8 +7,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "node ./server/index.js",
-    "server": "node ./server/index.js",
-    "client": "node ./server/client.js"
+    "server": "node --watch ./server/index.js",
+    "client": "node ./client/client.js"
   },
   "author": "Jpaniagua",
   "license": "ISC",
